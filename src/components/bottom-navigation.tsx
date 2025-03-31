@@ -3,7 +3,7 @@ import { Home, Library, Plus, Search, User } from "lucide-react"
 
 export function BottomNavigation() {
   return (
-    <div className="flex items-center justify-between w-full max-w-xs">
+    <div className="flex items-center justify-between w-full max-w-xs space-x-6">
       <Link href="/" className="flex flex-col items-center">
         <Home size={24} className="text-gray-500" />
       </Link>
@@ -28,4 +28,3 @@ export function BottomNavigation() {
     </div>
   )
 }
-

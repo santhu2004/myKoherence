@@ -10,8 +10,6 @@ export function CategoryButtons({ activeCategory }: CategoryButtonsProps) {
     { id: "meditation", label: "Meditation" },
     { id: "wisdom", label: "Wisdom" },
     { id: "journal", label: "Journal" },
-    { id: "pdf", label: "PDF" },
-    { id: "video", label: "Video" },
   ]
 
   return (
